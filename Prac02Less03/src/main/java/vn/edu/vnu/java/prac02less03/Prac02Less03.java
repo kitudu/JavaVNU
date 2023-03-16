@@ -13,10 +13,20 @@ import java.util.Scanner;
 public class Prac02Less03 {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter the radius of the circle: ");
-        double radius = input.nextDouble();
-        double area = Math.PI * radius * radius;
-        System.out.println("The area of the circle is: " + area);
+        Scanner sc = new Scanner(System.in);
+     
+        System.out.print("Enter a number: ");
+        int num = sc.nextInt();
+        int result = ++num;
+        System.out.println("The value of result after pre-increment is: " + result);
+
+        result = num++;
+        System.out.println("The value of result after post-increment is: " + result);
+
+        result = --num;
+        System.out.println("The value of result after pre-decrement is: " + result);
+
+        result = num--;
+        System.out.println("The value of result after post-decrement is: " + result);
     }
 }
