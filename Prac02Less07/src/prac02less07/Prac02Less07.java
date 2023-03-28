@@ -15,6 +15,13 @@ public class Prac02Less07 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Cat cat = new Cat("Fluffy", 3, "Persian");
+        System.out.println("Name: " + cat.getName());
+        System.out.println("Age: " + cat.getAge());
+        System.out.println("Breed: " + cat.getBreed());
+        cat.eat();
+        cat.sleep();
+        cat.meow();
     }
     
 }
