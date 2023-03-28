@@ -15,6 +15,8 @@ public class Prac01Less07 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Car myCar = new Car("Toyota", "Corolla", 2020);
+        myCar.startEngine();
     }
     
 }
